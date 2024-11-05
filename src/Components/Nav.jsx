@@ -54,16 +54,16 @@ function Nav({numberOfItems}){
                 </button>
                 <ul className="menu__links">
                   <li className="menu__list">
-                    <Link to="/" className="menu__link">Home</Link>
+                    <Link to="/" className="menu__link" onClick={CloseMenu} >Home</Link>
                   </li>
                   <li className="menu__list">
-                    <Link to="/books" className="menu__link">Book</Link>
+                    <Link to="/books" className="menu__link" onClick={CloseMenu}>Book</Link>
                   </li>
                   <li className="menu__list">
-                    <Link to="/" className="menu__link">Contact</Link>
+                    <Link to="/" className="menu__link" onClick={CloseMenu} >Contact</Link>
                   </li>
                   <li className="menu__list">
-                    <Link to="/cart" className="menu__link">Cart</Link>
+                    <Link to="/cart" className="menu__link" onClick={CloseMenu} >Cart</Link>
                   </li>
                 </ul>
               </div>
